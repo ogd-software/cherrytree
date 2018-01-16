@@ -2153,6 +2153,6 @@ define("route-recognizer", [], function() { return {"default": RouteRecognizer};
 define("rsvp", [], function() { return RSVP;});
 define("rsvp/promise", [], function() { return {"default": RSVP}; });
 return requireModule('router')["default"];
-}(window, require("es6-promise").Promise, require("./route-recognizer")));
+}(window, window.Promise, require("./route-recognizer")));
 });
 })(typeof define === 'function' && define.amd ? define : function (factory) { module.exports = factory(require); });

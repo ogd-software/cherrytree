@@ -1,6 +1,6 @@
 {
   "name": "cherrytree",
-  "version": "0.7.0",
+  "version": "0.7.2",
   "description": "Cherrytree is a hierarchical router for clientside web applications.",
   "main": "router",
   "scripts": {
@@ -28,7 +28,6 @@
   ],
   "devDependencies": {
     "chai": "~1.8.0",
-    "es6-promise": "latest",
     "jquery": "^2.1.1",
     "karma": "~0.12.23",
     "karma-chrome-launcher": "~0.1.0",
